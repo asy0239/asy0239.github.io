@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <link rel="stylesheet" href="/bootstrap-3.3.2-dist/css/sidebar.css">
+    <script src="/bootstrap-3.3.2-dist/js/sidebar.js"></script>
+    <link rel="stylesheet" href="/bootstrap-3.3.2-dist/rotating-css-card-master/rotating-css-card-master/css/rotating-card.css">
+    <link rel="stylesheet" href="bootstrap-3.3.2-dist/css/Technology.css">
+    <script src="bootstrap-3.3.2-dist/js/technology.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+    <link rel="stylesheet" href="bootstrap-3.3.2-dist/css/loadMap.css">
+    <script src="bootstrap-3.3.2-dist/js/loadMap.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+
+
+    <div id="wrapper">
+        <div class="overlay"></div>
+    
+        <!-- Sidebar -->
+        <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
+            <ul class="nav sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="home.html">
+                       목차
+                    </a>
+                </li>
+                <li>
+                    <a href="home.html">Home</a>
+                </li>
+                <li>
+                    <a href="loadMap.html">LoadMap</a>
+                </li>
+                <li>
+                    <a href="tripCard.html">Tourist</a>
+                </li>
+                <li>
+                    <a href="#">Projects</a>
+                </li>
+                <li>
+                    <a href="#">Hobby</a>
+                </li>
+            </ul>
+        </nav>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <button type="button" class="hamburger is-closed" data-toggle="offcanvas">
+                <span class="hamb-top"></span>
+    			<span class="hamb-middle"></span>
+				<span class="hamb-bottom"></span>
+            </button>
+        </div>
+        <section class="cd-horizontal-timeline">
+            <div class="timeline">
+                <div class="events-wrapper">
+                    <div class="events">
+                        <ol>
+                            <li><a href="#0" data-date="11/02/2010" class="selected">02/11</a></li>
+                            <li><a href="#0" data-date="18/02/2011">02/18</a></li>
+                            <li><a href="#0" data-date="01/02/2012">02/01</a></li>
+                            <li><a href="#0" data-date="01/05/2012">05/01</a></li>
+                            <li><a href="#0" data-date="01/07/2013">07/01</a></li>
+                            <!-- <li><a href="#0" data-date="30/08/2014">30 Aug</a></li>
+                            <li><a href="#0" data-date="15/09/2014">15 Sep</a></li> -->
+                            <li><a href="#0" data-date="28/11/2013">11/28</a></li>
+                            <li><a href="#0" data-date="01/07/2014">07/01</a></li>
+                            <li><a href="#0" data-date="12/12/2014">12/12</a></li>
+                            <li><a href="#0" data-date="15/05/2015">05/15</a></li>
+                        </ol>
+        
+                        <span class="filling-line" aria-hidden="true"></span>
+                    </div> <!-- .events -->
+                </div> <!-- .events-wrapper -->
+                    
+                <ul class="cd-timeline-navigation">
+                    <li><a href="#0" class="prev inactive">Prev</a></li>
+                    <li><a href="#0" class="next">Next</a></li>
+                </ul> <!-- .cd-timeline-navigation -->
+            </div> <!-- .timeline -->
+        
+            <div class="events-content">
+                <ol>
+                    <li class="selected" data-date="11/02/2010">
+                        <h2>출생</h2>
+                        <em>1993/02/11</em>
+                        <p>
+                            경기도 성남에서 태어나 10년동안 살았고 이후는 쭉 용인에 살고 있습니다.	
+                        </p>
+                    </li>
+        
+                    <li data-date="18/02/2011">
+                        <h2>군입대</h2>
+                        <em>2013/02/18</em>
+                        <p>	
+                            대학 입학 후 1년 뒤에 군입대하였습니다.
+                        </p>
+                    </li>
+        
+                    <li data-date="01/02/2012">
+                        <h2>대학 졸업</h2>
+                        <em>2017/02/01</em>
+                        <p>
+                            건축학과 졸업 후 취업 준비
+                        </p>
+                    </li>
+        
+                    <li data-date="01/05/2012">
+                        <h2>첫 취업</h2>
+                        <em>2017/05/01</em>
+                        <p>	
+                            첫 취업, 고생 시작
+                        </p>
+                    </li>
+        
+                    <li data-date="01/07/2013">
+                        <h2>돌아온 백수</h2>
+                        <em>2018/07/01</em>
+                        <p>	
+                            회사를 벗어나 자유로운 백수가 됨
+                        </p>
+                    </li>
+        
+                    <li data-date="28/11/2013">
+                        <h2>멀티캠퍼스 등원</h2>
+                        <em>2018/11/28</em>
+                        <p>	
+                            머신러닝을 활용한 빅데이터 분석 전무가 과정
+                        </p>
+                    </li>
+        
+                    <li data-date="01/07/2014">
+                        <h2>삼성sds/프리랜서</h2>
+                        <em>2019/07/01</em>
+                        <p>	
+                            4개월 계약직으로 데이터 전처리 업무 진행
+                        </p>
+                    </li>
+        
+                    <li data-date="12/12/2014">
+                        <h2>미디어젠/인턴</h2>
+                        <em>2019/12/12</em>
+                        <p>	
+                            3개월 인턴 생활
+                        </p>
+                    </li>
+        
+                    <li data-date="15/05/2015">
+                        <h2>KH정보교육원 등원</h2>
+                        <em>2020/05/15</em>
+                        <p>	
+                            아직 부족한 능력 향상과 새로운 기술들을 배우려 학원 등원
+                        </p>
+                    </li>
+        
+                    <li data-date="19/01/2015">
+                        <h2>Event title here</h2>
+                        <em>January 19th, 2015</em>
+                        <p>	
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
+                        </p>
+                    </li>
+        
+                    <li data-date="03/03/2015">
+                        <h2>Event title here</h2>
+                        <em>March 3rd, 2015</em>
+                        <p>	
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
+                        </p>
+                    </li>
+                </ol>
+            </div> <!-- .events-content -->
+        </section>
