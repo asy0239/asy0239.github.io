@@ -52,6 +52,10 @@
 
 }
 
+#myPTag {
+    font-size: 15px;
+}
+
 /* CUSTOM RESETS
 ================================================== */
 a {
@@ -582,3 +586,4 @@ a.icon-up-bg:hover {color: #212121;}
     color: #fff;
     text-align: center;
 }
+
