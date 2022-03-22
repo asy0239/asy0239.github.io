@@ -23,7 +23,7 @@ timezone: Asia/Seoul
 
 title: asY`s blog                          # the main title
 
-tagline: A text-focused Jekyll theme   # it will display as the sub-title
+tagline: 학습 기록 공간입니다.   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   A minimal, responsive, and powerful Jekyll theme for presenting professional writing.
