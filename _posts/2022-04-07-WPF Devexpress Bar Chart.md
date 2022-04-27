@@ -85,4 +85,5 @@ public class DataPoint
 - `Argument` 는 X 축 값이 됩니다.
 - `Value`는 bar 의 값이 됩니다.
 
-![](https://github.com/asy0239/asy0239.github.io/tree/master/assets/img\BarChart.png)
+<img src="https://github.com/asy0239/asy0239.github.io/tree/master/assets/img\BarChart.png">
+
