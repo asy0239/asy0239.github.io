@@ -1,5 +1,5 @@
 ---
-title: Python Django 기초
+title: Python + Django 기초
 author: asy
 date: 2021-03-13 17:32:00 -0500
 categories: [python, django]
@@ -46,3 +46,5 @@ python manage.pu runserver
 ```
 
 - 기본적인 설치만 진행 후 runserver 하면 django 화면이 뜨면 성공적으로 장고가 설치되었습니다.
+
+출처 : https://www.djangoproject.com/start/
